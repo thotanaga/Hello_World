@@ -1,0 +1,232 @@
+Q. What is Testing
+A. Testing is a process of executing a program with the intent of finding an error.
+Software testing is the process of identifying the bugs in the project/product(software).
+Test engineer will check whether the developed project/product is as per the clients requirements or not.
+He has to ensure for quality.
+====================================================================
+Q. What phases are available in SDLC
+A. SDLC (Software Development Life Cycle) is a process used by software 
+industry to design, develop and   test high quality software’s.
+ To develop and deliver any project or product, SDLC process will 
+be followed.It contains the below phases
+Requirements Phase
+Analysis Phase
+Design Phase
+Coding/Implementation Phase
+Testing Phase
+Delivery & Maintenance Phase
+======================================================================                                                              
+Q. What is the difference between Bug, Defect and Error
+A. Bug: Deviation from the expected result. 
+it means a fault in a program which causes the program to perform 
+in an unanticipated manner is called bug.
+
+Defect: If software misses some features or functions from their
+ requirements it’s called defect.
+
+Error:  Error will be generated because of wrong login,
+ loop or due to syntax error. Error means to change the 
+functionality of the program.   
+=========================================================================                         
+Q. Difference between Waterfall, V-model
+A. Waterfall model is a sequential execution.
+ Once the phase is completed the high level management will analyze 
+the phase. Its costly process, the requirements can’t be changed in 
+between the  phase and the risk can’t be identified and prevented 
+at the early stage of the life cycle
+V-Model: Testing activities will be started at the early stage of the
+ life cycle. The validation team will participate from requirement phase
+ on-wards. Will prepare the test plan once the SRS doc is base lined 
+and also prepares the system test plan, Design plan once the Analysis 
+phase is completed.
+Advantages: 1. We can ensure for quality because the testing activities
+ are starting at early stage of SDLC 2. Risk can be identified at early
+ stage and it can be prevented.3. Requirement change can be accepted at
+ early stage of SDLC
+Q. What is agile process
+A. Agile software development is a group of software development methods in which requirements and solutions evolve through collaboration between self-organizing, cross-functional teams. It promotes adaptive planning, evolutionary development, early delivery, continuous improvement and encourages rapid and flexible response to change.  
+Customer satisfaction by rapid delivery of useful software
+Welcome changing requirements, even late in development
+Working software is delivered frequently for each sprint
+Close, daily cooperation between business people and developers
+Projects are built around motivated individuals, who should be trusted
+Face-to-face conversation is the best form of communication
+Working software is the principal measure of progress
+Sustainable development, able to maintain a constant pace
+Continuous attention to technical excellence and good design
+Simplicity—the art of maximizing the amount of work not done—is essential
+Self-organizing teams
+Regular adaptation to changing circumstances
+                                                                                        
+
+Q. What is Re-testing testing and Regression testing
+A. Regression testing is the process of testing already tested functionalities on the iterative builds
+Executing the passed test cases on the incremental or iterative builds is also known as Regression testing. 
+Retesting is to test the same functionalities again and again by using multiple sets of test data
+For ex:  Testing gmail functionality by using 100 login credentials.Executing the failed test cases on the incremental or iterative builds is also known as Re testing
+
+=============================================================================
+Q. What is the difference between Sanity and smoke Testing?
+
+A. Smoke testing is done once the build is ready from the development environment before
+ releasing the build to the testing team. 
+To make sure that most basic and crucial functions of software are working fine. 
+They will check wheather the build is ready for further testing or not.
+
+
+
+Sanity Testing is done once the build is released to the testing team,
+ the test engineers will perform smoke testing in test environment. 
+The main purpose of sanity test is not to break the test execution and to make sure
+ that end user requirements are met or not. 
+ Sanity tests are mostly non scripted
+======================================================================
+Q. What is Load, Performance and Stress Testing?
+A. Load Testing: Load is number of users.
+ The process of increasing the load for the application is known as Load Testing. 
+Performance testing is the process of checking whether the application is maintaining
+ the targeted response time for the specific load.
+Stress Testing: While increasing the load, the performance engineer will check the
+ response time of the application.
+ At what point(load & time), the application is taking more time to process the 
+request is known as Stress Testing.
+=====================================================================================
+
+
+Q. What is Usability testing?
+A. Usability means user friendlyness. Test engineer has to check whether the application is maintaining user friendliness with the end user or not. Providing user friendliness to the application is known as Usability Testing.
+Q. What is UAT?
+A. UAT stands for User Acceptance Testing and also known as Client Acceptance Testing.
+Once the application is stable, client will provide UA Test Cases to the testing team. The test engineer has to execute all the test cases. If all the Test Cases are passed, then the client will accept the build or the build will be delivered to the client.UAT is 2 types:1. Alpha Testing: UA Test Cases will be executed in Test environment by testing team
+2.Beta Testing   : UA Test Cases will be executed in Client’s environment by testing team or client’s team.
+Q. What is ECP and BVA?
+A. ECP stands for Equivalence Class PartitionECP technique is used in scenarios where it is not possible to develop the Test Cases with all thepositive and negative flows. Then will use ECP as below:
+Divide the test data equally into valid and invalid.
+Test the application with valid data so that the field should accept it
+Test the application with invalid data where the field should not accept
+BVA stands for Boundary Value Analysis
+This technique is used when we are planning to test the range like 0-100 or 0-1000 or 1 Lac. to 2Lac. etc.,
+As it is very difficult to test the application or field with all the values and even to write the Test Cases for all the positive and negative flows.
+In this situation, test the application with min, min+1, middle, max-1 and max values. If the field is accepting, then we can conclude that the field is accepting the range.
+Test the field with min-1 and max+1 values. If the field is not accepting, then we can conclude that it is accepting only the range.
+
+Q. What is system testing? Explain in detail
+A. System Testing is also known as nonfunctional testing and is performed on the entire system. It is to ensure whether the application is maintaining the response time when the maximum and minimum users are        working on that application.Response time is the time taken between the request and response
+Q. What is the differences between web application testing and client server application testing.
+A. In Client Server testing, there are two different components to test.
+Application is loaded on server machine and the application exe on every client machine.
+Testing is done broadly in categories like GUI on both sides, functionality, Load, Client Server interaction and backend testing. Most of the client server applications are Intranet networks.Web Application testing is complex to test as tester doesn’t have control over the application.Application is loaded on the server whose location may not be known and no exe is installed on theclient machine. Hence, Web Applications are supposed to test on different browsers and OS platforms. It is tested mainly for browser and OS compatibility, error handling, static pages, backend testing and Load Testing.
+Q. Explain in detail what is integration testing and Regression testing
+A. Integration means combining. Once all the modules are developed by the developers, then thedeveloper will combine all the modules in a hierarchical order is known as integration.
+Integration Testing means whether the data flow between one module to other is navigating properly or not.Regression testing is the process of testing already tested functionalities on the iterative and incremental builds.
+Executing the passed test cases on the incremental or iterative builds is also known as Regression testing
+Q. Explain the difference between test scenario and test case
+A. Test Case consists of set of input values, precondition, expected Results and post Condition developedto cover certain test Condition.Test Scenario: Scenario means a flow or story. Requirement will be divided into multiple scenarios to test it in all the possible flows.In short, Test Scenario is ‘What to be tested’ and Test Case is ‘How to be Tested’.
+Q. Draw differences between QC and QA?
+A. QA (Quality Assurance) is process oriented and focuses on defect prevention where as QC (QualityControl) is product oriented and focuses on defect identification.
+QA is a set of activities for ensuring quality in the processes by which products are developed and QC is a set of activities for ensuring quality in products.
+Goal of QA is to improve development and test processes so that defects do not arise when the product is being developed. On the other hand, QC is to identify defects after a product is developed and before it’s released.Verification is an example of QA. Validation/Software Testing is an example of QC.
+Q. In defects in the software, how are priority and severity defined?
+A. Severity describes how seriously the bug is impacting the application. Each and every bug will have the severity. Severity has below types,1.    Blocker  2. Very High    3. High      4.Medium     5. LowPriority describes the order to fix the bugs. It is of type P1, P2, P3, P4 and P5.
+P1 bugs are fixed initially, then P2, P3, P4, P5
+We will maintain the priority for each bug based on severity.
+Q. What is the difference between priority in test cases and priority in bugs
+A. Priority in TestCases: Every test case/scenario has a priority. It describes the importance of the test cases. There are 4 types of priorities.
+Priority1 (P1)  – The Test Case describes about the main functionality.
+Priority2 (P2) – The Test Case describes about the field level.
+Priority3 (P3) – All the GUI’s.
+Priority4 (P4) - If the test engineer is planning to provide any suggestion to the application, then he can write test cases where the priority is P4
+Priority in Bugs: Based on the severity the priority will be assigned. Priority describes in which order the has to be fixed by the developer
+
+Blocker – P1
+Very High – P2
+High – P3
+Medium – P4
+Low – P5
+Q. What do you write in a test plan?
+A. Plan is a strategic document which describes how to perform one task in an effective and efficient manner. Software Test Plan is a strategic document which describes how to perform testing in an effective and efficient manner.It will be prepared by the Testlead
+Q. What is AUT?
+A. AUT stands for Application Under Test. The project which we are testing is known as AUT
+Q. What is Adhoc Testing?
+A. After understanding all the requirements of the application and one round of manual testing is completed then the test engineer will perform testing in user defined order is known as adhoc testing. By performing adhoc testing, the test engineer can provide the user friendliness to the application.
+Q. What is Alpha Testing and Beta Testing?
+A. Alpha Testing: UA Test Cases will be executed in Test environment by testing team 
+Beta Testing   : UA Test Cases will be executed in Client’s environment by testing team or client’s team.
+
+Q. What is Compatibility Testing?
+A. Testing the application in multiple browsers and operating systems(environments) and check whether the application is working as excepted in all the environments or not is known as compatibility testing. 
+Ex: Test the gmail.com on firefox, IE, GoogleChrome, Safari and opera in windows, Linux and Mac systems
+This kind of testing is useful for Internet based applications like selenium4testing.com, Facebook etc..
+Q. What is End-to-End testing?
+A. Scenario means the flow. Test engineer has to identify the end user used scenarios in the application. The test engg has to execute all the end user used scenarios and check that whether the application is fulfilling the end users requirements or not is known as End-To-End testing.
+Q. What is Localization Testing?
+A. Test engineer will test the application in all the local languages like Hindi, Bengali, Telugu, Tamil etc., and check that whether the application is working as expected or not is known as Localization Testing. Localization testing supports maximum of 10 languages. Hence, we call it as L10N Testing.
+Q. What is Internationalization Testing
+A. Test Engg will test the application in all the international languages like Spanish, Chinese, Japanese etc. is known age Internationalization testing. It supports 18 languages hence will call it has I18N testing.
+Ex: Test gmail.com in all the internationalization languages
+Q. What is Monkey Testing (or Gorilla Testing)?
+A. Monkey Testing means testing the application by performing abnormal actions like:
+Continuously click on any field for a longer period of time and check that whether the application is throwing any error or not.
+Enter the invalid data like tags in the application and check that whether the application is crashing or not.
+Q. Explain the bug which is High Severity and Low priority ?
+A. High severe bugs will be having high priority. But if the bug is not related to the current release then the priority of the bug will became low priority. The development lead will have the permission to change the priority.
+Q. Explain the bug which is Low Severity and High priority ?
+A. Low severe bugs will be having low priority. But if the bug is related to the current release then the priority of the bug will became high priority. The development lead will have the permission to change the priority.
+Q. What is Endurance Testing (or Soak Testing)?
+A. Testing the application with minimum load for 1 to 2hrs and check that whether the application is maintaining the targeted response time or not is known as Soak testing
+Q. What is Volume Testing?
+A. Testing the application with maximum load for 1 to 2hrs and check that whether the application is maintaining the targeted response time or not is known as Volume testing
+Q. Write 5 positive and negative test cases for mobile
+A. Please refer class notes
+Q. Write 5 negative test cases on bike
+A. Please refer class notes
+
+CONTACT ME
+
+
+Full Name*
+
+
+E-mail ID*
+
+
+Mobile*
+
+
+Subject*
+
+
+Message*
+
+Send
+
+QUICK LINKS
+
+About us
+Bugzilla
+Core Java FAQs
+Downloads
+General Testing FAQs
+HMS
+Home
+Manual FAQs
+New Batches
+Resumes
+Selenium FAQs
+Videos
+FOLLOW US
+
+facebooktwittergoogle_pluslinkedinrssyoutubeby feather
+NEW BATCHES
+
+MobileAutomation on Real device with Appium and WebDriver On 16th March @11:00am
+Free Workshop on Common DataDriven framework for both mobile and web application on 30th April@10:30am
+Live Project on Selenium With Manual Testing on 11th-April-2016 @ 9:30 AM
+SELENIUM WITH APPIUM – 11:00am-:1:00pm on 2nd-May-2016
+TESTING TOOLS (Manual with Selenium) With APPIUM – 6PM-8:00PM on 28-April-2016
+TESTIMONIALS
+
+Sindhu : I am very happy to choose Nagesh sir's class. The best thing in him is the way of delivering the concept. Its simply awesome. He will maintain the consistency from the beginning to the end of all the classes.Thank you very much for giving me such a great start up for our career. The way you are teaching is awesome.Truly we got addicted to your classes, which is simple and perfect. Thank you once again for the best training.
+Copyrights@2014.All Rights Reserved by Selenium4testing.com Design & Developed by LG Soft Solutions
+StatCounter - Free Web Tracker and Counter
+Popup Dialog Box Powered By : XYZScripts.com
